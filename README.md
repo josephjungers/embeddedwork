@@ -21,11 +21,12 @@ The file will work on Unix-based platforms such as Ubuntu. It works on ROS Distr
 
 ## Installation and configuration
 
-Instructions for installation and configuration. Assume users know how to install ROS packages and can use `git`.
 
 In one terminal enter the following:
-Catkin_make                             "build the files"
-source devel/setup.bash                  "source the workspace"
+Catkin_make                             
+# "build the files"
+source devel/setup.bash                  
+# "source the workspace"
 
 
 ## Getting started
