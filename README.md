@@ -32,7 +32,11 @@ source devel/setup.bash
 
 ## Getting started
 
-In one terminal enter the following:
+To launch the package, enter the following:
+roslaunch my_topics my_topics.launch
+
+
+Otherwise enter the following in the terminal:
 
 rosrun my_topics topic_publisher.py
 
@@ -76,8 +80,11 @@ source devel/setup.bash
 
 
 ## Getting started
+To launch the package, enter the following:
 
-Entering the following in the terminal:
+roslaunch my_services my_services.launch
+
+Otherwise enter the following in the terminal:
 rosrun my_services service_server.py
 ##### *to run the service*
 
@@ -101,9 +108,33 @@ rosservice type
 ##### *print service type*
 
 # ROS package: |my_actions|
+This executable sets up a action server and a client node.
+The client node requests a service from the action node that the action node is offering.
+The action node performs the service and sends the results to the client node. 
+The services offered might be longer tasks like extra long calculations, but this one is just a timer.
+It is more useful for goal objective tasks and provides feedback during the execution unlike the service node.
 
 ## Requirements
 The file will work on Unix-based platforms such as Ubuntu. It works on ROS Distribution "ROS Melodic Morenia"
 ## Installation and configuration
+
+In your workspace enter the following:
+
+catkin_make
+
+source devel/setup.bash
+
 ## Getting started
+To launch the package, enter the following:
+
+roslaunch my_actions my_actions.launch
+
+Or enter the following:
+rosrun my_actions my_actions_server
+rosrun my_actions my_actions_client
+
 ## Usage
+rostopic echo /myactions/feedback 
+##### *To see feedback*
+$ rostopic echo /myactions/results
+##### *To see the results*
