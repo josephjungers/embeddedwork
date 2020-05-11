@@ -45,8 +45,13 @@ rostopic
 ## Usage
 The following useful commands can be entered in the terminal. 
 
-"rostopic list"            # Gives a list of published topics
-"rostopic echo counter"    # Shows what is being published to the counter topic without stopping
-"rostopic hz counter"      # Gives information on the publish average speed
-"rostopic info counter"    # Gives information on the message type, number of subscribers/publishers, etc. 
-"ctrl+c"                   # The loop can be shut down with
+"rostopic list"            
+##### *Gives a list of published topics*
+"rostopic echo counter"    
+##### *Shows what is being published to the counter topic without stopping*
+"rostopic hz counter"      
+##### *Gives information on the publish average speed*
+"rostopic info counter"    
+##### *Gives information on the message type, number of subscribers/publishers, etc.* 
+"ctrl+c"                   
+##### *The loop can be shut down with*
