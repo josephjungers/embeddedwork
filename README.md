@@ -33,7 +33,9 @@ source devel/setup.bash
 ## Getting started
 
 In one terminal enter the following:
+
 rosrun my_topics topic_publisher.py
+
 rosrun my_topics topic_subscriber.py
 
 In another terminal enter the following:
@@ -67,19 +69,24 @@ The file will work on Unix-based platforms such as Ubuntu. It works on ROS Distr
 ## Installation and configuration
 
 In your workspace enter the following:
+
 catkin_make
+
 source devel/setup.bash
 
 
 ## Getting started
 rosrun my_services service_server.py
+
 ##### *to run the service*
 
 In a new terminal window enter the following:
 roscore
 
 In a new terminal window enter the following:
+
 source devel/setup.bash
+
 rosrun my_services service_client.py "text here"
 ##### *replace text here and the service will return a word count on the text entered*
 
