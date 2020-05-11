@@ -108,7 +108,7 @@ rosservice type
 ##### *print service type*
 
 # ROS package: |my_actions|
-This executable sets up a action server and a client node.
+This executable sets up an action server and a client node.
 The client node requests a service from the action node that the action node is offering.
 The action node performs the service and sends the results to the client node. 
 The services offered might be longer tasks like extra long calculations, but this one is just a timer.
