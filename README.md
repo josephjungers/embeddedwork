@@ -17,7 +17,7 @@ It also has a separate node which subscribes to the topic the other node is push
 
 ## Requirements
 
-The file will work on Unix-based platforms such as Ubuntu. It works on ROS Distribution "ROS Melodic Morenia"
+The file will work on Unix-based platforms such as Ubuntu. It works on ROS Distribution "ROS Melodic Morenia". Python is required.
 
 ## Installation and configuration
 
@@ -69,7 +69,7 @@ The service node performs the service and sends the results to the client node.
 The services offered might be short tasks like calculations, but this one just counts words.
 
 ## Requirements
-The file will work on Unix-based platforms such as Ubuntu. It works on ROS Distribution "ROS Melodic Morenia"
+The file will work on Unix-based platforms such as Ubuntu. It works on ROS Distribution "ROS Melodic Morenia". Python is required.
 ## Installation and configuration
 
 In your workspace enter the following:
@@ -115,7 +115,7 @@ The services offered might be longer tasks like extra long calculations, but thi
 It is more useful for goal objective tasks and provides feedback during the execution unlike the service node.
 
 ## Requirements
-The file will work on Unix-based platforms such as Ubuntu. It works on ROS Distribution "ROS Melodic Morenia"
+The file will work on Unix-based platforms such as Ubuntu. It works on ROS Distribution "ROS Melodic Morenia". Python is required.
 ## Installation and configuration
 
 In your workspace enter the following:
