@@ -134,7 +134,7 @@ rosrun my_actions my_actions_server
 rosrun my_actions my_actions_client
 
 ## Usage
-rostopic echo /myactions/feedback 
+rostopic echo /my_actions/feedback 
 ##### *To see feedback*
-$ rostopic echo /myactions/results
+$ rostopic echo /my_actions/results
 ##### *To see the results*
