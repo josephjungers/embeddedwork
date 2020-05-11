@@ -23,10 +23,8 @@ The file will work on Unix-based platforms such as Ubuntu. It works on ROS Distr
 
 
 In one terminal enter the following:
-Catkin_make                             
-### "build the files"
-source devel/setup.bash                  
-### "source the workspace"
+Catkin_make                             ### "to build the files"
+source devel/setup.bash                 ### "to source the workspace"
 
 
 ## Getting started
