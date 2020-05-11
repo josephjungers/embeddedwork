@@ -6,7 +6,7 @@ This is a simple executable file that is connected to the ROS network.
 The initial code specifies which interpreter is going to be used, which is Python. 
 
 It has a node that is initialized and registered with roscore to continually send a string type message.
-The message is a counter that uses Int32, which has to be integer, from standard messages.
+The message is a counter that uses Int32, which has to be an integer, from standard messages.
 It keeps a max of 5 messages
 
 It's set to run loops at 2 Hz which makes it get called twice a second. 
