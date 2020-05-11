@@ -85,7 +85,7 @@ To launch the package, enter the following:
 roslaunch my_services my_services.launch
 
 Otherwise enter the following in the terminal:
-rosrun my_services service_server.py
+rosrun my_services my_services_server.py
 ##### *to run the service*
 
 In a new terminal window enter the following:
