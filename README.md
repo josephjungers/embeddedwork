@@ -76,8 +76,9 @@ source devel/setup.bash
 
 
 ## Getting started
-rosrun my_services service_server.py
 
+Entering the following in the terminal:
+rosrun my_services service_server.py
 ##### *to run the service*
 
 In a new terminal window enter the following:
@@ -87,10 +88,10 @@ In a new terminal window enter the following:
 
 source devel/setup.bash
 
+## Usage
+
 rosrun my_services service_client.py "text here"
 ##### *replace text here and the service will return a word count on the text entered*
-
-## Usage
 
 rosservice list         
 ##### *print information about active services*
