@@ -55,3 +55,17 @@ The following useful commands can be entered in the terminal.
 ##### *Gives information on the message type, number of subscribers/publishers, etc.* 
 "ctrl+c"                   
 ##### *To stop the loop*
+-------------------------------------------------------------------------------------------------------------------------------------
+# ROS package: |my_services|
+## Requirements
+The file will work on Unix-based platforms such as Ubuntu. It works on ROS Distribution "ROS Melodic Morenia"
+## Installation and configuration
+## Getting started
+## Usage
+
+# ROS package: |my_actions|
+## Requirements
+The file will work on Unix-based platforms such as Ubuntu. It works on ROS Distribution "ROS Melodic Morenia"
+## Installation and configuration
+## Getting started
+## Usage
