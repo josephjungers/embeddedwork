@@ -1,0 +1,7 @@
+<launch>
+	<node name="server" pkg="my_topics"
+	type="my_topics_server.py" output="screen" />
+	<node name="client" pkg="my_topics"
+	type="my_topics_client.py" output="screen" />
+</launch>
+
