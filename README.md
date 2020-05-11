@@ -54,4 +54,4 @@ The following useful commands can be entered in the terminal.
 "rostopic info counter"    
 ##### *Gives information on the message type, number of subscribers/publishers, etc.* 
 "ctrl+c"                   
-##### *The loop can be shut down with*
+##### *To stop the loop*
