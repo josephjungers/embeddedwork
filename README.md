@@ -21,7 +21,7 @@ The file will work on Unix-based platforms such as Ubuntu. It works on ROS Distr
 
 ## Installation and configuration
 
-|Instructions for installation and configuration. Assume users know how to install ROS packages and can use `git`.|
+Instructions for installation and configuration. Assume users know how to install ROS packages and can use `git`.
 
 In one terminal enter the following:
 Catkin_make                             "build the files"
@@ -43,8 +43,8 @@ rostopic
 ## Usage
 The following useful commands can be entered in the terminal. 
 
-"rostopic list"            Gives a list of published topics
-"rostopic echo counter"    Shows what is being published to the counter topic without stopping
-"rostopic hz counter"      Gives information on the publish average speed
-"rostopic info counter"     Gives information on the message type, number of subscribers/publishers, etc. 
-"ctrl+c"                   The loop can be shut down with
+"rostopic list"            # Gives a list of published topics
+"rostopic echo counter"    # Shows what is being published to the counter topic without stopping
+"rostopic hz counter"      # Gives information on the publish average speed
+"rostopic info counter"    # Gives information on the message type, number of subscribers/publishers, etc. 
+"ctrl+c"                   # The loop can be shut down with
