@@ -131,6 +131,7 @@ roslaunch my_actions my_actions.launch
 
 Or enter the following:
 rosrun my_actions my_actions_server
+
 rosrun my_actions my_actions_client
 
 ## Usage
